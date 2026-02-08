@@ -1,0 +1,23 @@
+{
+  "name": "windi-transparency-anchor",
+  "version": "0.1.0",
+  "description": "WINDI Transparency Anchoring — Public verifiability for the trust network",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/anchor.test.js",
+    "anchor": "node src/cli/runAnchor.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.3",
+    "node-cron": "^3.0.3"
+  },
+  "author": "WINDI Team",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bingo-APPweb/windi-transparency-anchor.git"
+  }
+}
